@@ -1,157 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" conent="Patrick Zender" />
-    <meta
-      name="Value Proposition"
-      content="The PZ consulting website is a personal site for Patrick Zender and his consulting services.."
-    />
-    <title>Value Proposition - PZ Consulting</title>
-    <style>
-      /* General Page Formatting */
-      p {
-        text-indent: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2em;
-        text-indent: 3%;
-        text-align: left;
-        width: auto;
-        color: #12343b;
-      }
-      h1 {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 3em;
-        text-align: center;
-        width: auto;
-        color: #12343b;
-      }
 
-      a:link {
-        color: #2d545e;
-        text-decoration: none;
-        cursor: pointer;
-      }
-      a:visited {
-        color: #2d545e;
-        text-decoration: none;
-        cursor: pointer;
-      }
+<head>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" conent="Patrick Zender" />
+  <meta name="Value Proposition"
+    content="The PZ consulting website is a personal site for Patrick Zender and his consulting services.." />
+  <title>Value Proposition - PZ Consulting</title>
+  <style>
+    /* General Page Formatting */
+    p {
+      text-indent: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2em;
+      text-indent: 3%;
+      text-align: left;
+      width: auto;
+      color: #12343b;
+    }
 
-      body {
-        margin: 1em;
-        font-size: 1.2em;
-        width: 100%;
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: #c89666;
-      }
+    h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 3em;
+      text-align: center;
+      width: auto;
+      color: #12343b;
+    }
 
-      /* Navbar & Logo */
-      .navbar {
-        overflow: hidden;
-        background-color: #e1b382;
-        text-align: center;
-        width: auto;
-      }
+    a:link {
+      color: #2d545e;
+      text-decoration: none;
+      cursor: pointer;
+    }
 
-      .navbar a {
-        text-align: center;
-        display: inline-block;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        width: auto;
-        font-size: 1.2em;
-        border-right: 1px dashed white;
-        border-left: 1px dashed white;
-        border-top: 1px dashed white;
-        border-bottom: 1px dashed white;
-        padding: 10px 10px;
-        margin: 1em;
-      }
+    a:visited {
+      color: #2d545e;
+      text-decoration: none;
+      cursor: pointer;
+    }
 
-      .navbar a:hover {
-        background-color: #12343b;
-        color: white;
-        cursor: pointer;
-      }
-      #logo {
-        border: none;
-        cursor: pointer;
-        padding-bottom: 15px;
-        height: 89px;
-        width: 250px;
-        margin: 1em;
-        display: inline-block;
-      }
+    body {
+      margin: 1em;
+      font-size: 1.2em;
+      width: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #c89666;
+    }
 
-      /* Bottom of page */
-      .bottomlinks {
-        overflow: hidden;
-        background-color: #e1b382;
-        padding: 10px 10px;
-        text-align: center;
-      }
-      .bottomlinks a {
-        text-align: center;
-        display: inline-block;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        width: auto;
-        font-size: 1.2em;
-        border-right: 1px dashed white;
-        border-left: 1px dashed white;
-        border-top: 1px dashed white;
-        border-bottom: 1px dashed white;
-        padding: 10px 10px;
-        margin: 1em;
-      }
+    /* Navbar & Logo */
+    .navbar {
+      overflow: hidden;
+      background-color: #e1b382;
+      text-align: center;
+      width: auto;
+    }
 
-      .bottomlinks a:hover {
-        background-color: #12343b;
-        color: white;
-        cursor: pointer;
-      }
-      #copyright {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2em;
-        text-decoration: none;
-        color: white;
-      }
+    .navbar a {
+      text-align: center;
+      display: inline-block;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      width: auto;
+      font-size: 1.2em;
+      border-right: 1px dashed white;
+      border-left: 1px dashed white;
+      border-top: 1px dashed white;
+      border-bottom: 1px dashed white;
+      padding: 10px 10px;
+      margin: 1em;
+    }
 
-      /*--- Default CSS Above /\ --- */
-    </style>
-  </head>
-  <body>
-    <div id="navbar">
-      <a href="index.html">
-        <div style="text-align: center">
-          <img id="logo" src="images/pzlogo1.png" alt="PZ Logo" />
-        </div>
-      </a>
-      <div class="navbar">
-        <a href="index.html">&nbsp Home &nbsp</a>
-        <a href="allaboutme.html">&nbsp All About Me &nbsp</a>
-        <a href="valueprop.html">&nbsp Value Proposition &nbsp</a>
-        <a href="services.html">&nbsp Services &nbsp</a>
-        <a href="book.html">&nbsp Book &nbsp</a>
-        <a href="faqs.html">&nbsp FAQs &nbsp</a>
+    .navbar a:hover {
+      background-color: #12343b;
+      color: white;
+      cursor: pointer;
+    }
+
+    #logo {
+      border: none;
+      cursor: pointer;
+      padding-bottom: 15px;
+      height: 89px;
+      width: 250px;
+      margin: 1em;
+      display: inline-block;
+    }
+
+    /* Bottom of page */
+    .bottomlinks {
+      overflow: hidden;
+      background-color: #e1b382;
+      padding: 10px 10px;
+      text-align: center;
+    }
+
+    .bottomlinks a {
+      text-align: center;
+      display: inline-block;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      width: auto;
+      font-size: 1.2em;
+      border-right: 1px dashed white;
+      border-left: 1px dashed white;
+      border-top: 1px dashed white;
+      border-bottom: 1px dashed white;
+      padding: 10px 10px;
+      margin: 1em;
+    }
+
+    .bottomlinks a:hover {
+      background-color: #12343b;
+      color: white;
+      cursor: pointer;
+    }
+
+    #copyright {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2em;
+      text-decoration: none;
+      color: white;
+    }
+
+    /*--- Default CSS Above /\ --- */
+  </style>
+</head>
+
+<body>
+  <div id="navbar">
+    <a href="index.html">
+      <div style="text-align: center">
+        <img id="logo" src="Images/pzlogo1.png" alt="PZ Logo" />
       </div>
-    </div>
-
-    <p>TEXT CONTENT HERE</p>
-
-    <div class="bottomlinks">
+    </a>
+    <div class="navbar">
       <a href="index.html">&nbsp Home &nbsp</a>
-      <a href="sitemap.html">&nbsp Sitemap &nbsp</a>
-      <a href="faqs.html">&nbsp Connect With Me &nbsp</a>
+      <a href="allaboutme.html">&nbsp All About Me &nbsp</a>
+      <a href="valueprop.html">&nbsp Value Proposition &nbsp</a>
+      <a href="services.html">&nbsp Services &nbsp</a>
+      <a href="book.html">&nbsp Book &nbsp</a>
+      <a href="faqs.html">&nbsp FAQs &nbsp</a>
     </div>
+  </div>
 
-    <p id="copyright">Patrick Zender 2023 ©</p>
-  </body>
+  <p>TEXT CONTENT HERE</p>
+
+  <div class="bottomlinks">
+    <a href="index.html">&nbsp Home &nbsp</a>
+    <a href="sitemap.html">&nbsp Sitemap &nbsp</a>
+    <a href="faqs.html">&nbsp Connect With Me &nbsp</a>
+  </div>
+
+  <p id="copyright">Patrick Zender 2023 ©</p>
+</body>
+
 </html>

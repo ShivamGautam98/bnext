@@ -1,312 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" conent="Patrick Zender" />
-    <meta
-      name="FAQs & Contact Page"
-      content="The PZ consulting website is a personal site for Patrick Zender and his consulting services.."
-    />
-    <title>FAQs & Contact Page - PZ Consulting</title>
-    <style>
-      /* General Page Formatting */
-      p {
-        text-indent: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2em;
-        text-indent: 3%;
-        text-align: left;
-        width: auto;
-        color: #12343b;
-      }
-      h1 {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 3em;
-        text-align: center;
-        width: auto;
-        color: #12343b;
-      }
 
-      a:link {
-        color: #2d545e;
-        text-decoration: none;
-        cursor: pointer;
-      }
-      a:visited {
-        color: #2d545e;
-        text-decoration: none;
-        cursor: pointer;
-      }
+<head>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" conent="Patrick Zender" />
+  <meta name="FAQs & Contact Page"
+    content="The PZ consulting website is a personal site for Patrick Zender and his consulting services.." />
+  <title>FAQs & Contact Page - PZ Consulting</title>
+  <style>
+    /* General Page Formatting */
+    p {
+      text-indent: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2em;
+      text-indent: 3%;
+      text-align: left;
+      width: auto;
+      color: #12343b;
+    }
 
-      body {
-        margin: 1em;
-        font-size: 1.2em;
-        width: 100%;
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: #c89666;
-      }
+    h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 3em;
+      text-align: center;
+      width: auto;
+      color: #12343b;
+    }
 
-      /* Navbar & Logo */
-      .navbar {
-        overflow: hidden;
-        background-color: #e1b382;
-        text-align: center;
-        width: auto;
-      }
+    a:link {
+      color: #2d545e;
+      text-decoration: none;
+      cursor: pointer;
+    }
 
-      .navbar a {
-        text-align: center;
-        display: inline-block;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        width: auto;
-        font-size: 1.2em;
-        border-right: 1px dashed white;
-        border-left: 1px dashed white;
-        border-top: 1px dashed white;
-        border-bottom: 1px dashed white;
-        padding: 10px 10px;
-        margin: 1em;
-      }
+    a:visited {
+      color: #2d545e;
+      text-decoration: none;
+      cursor: pointer;
+    }
 
-      .navbar a:hover {
-        background-color: #12343b;
-        color: white;
-        cursor: pointer;
-      }
-      #logo {
-        border: none;
-        cursor: pointer;
-        padding-bottom: 15px;
-        height: 89px;
-        width: 250px;
-        margin: 1em;
-        display: inline-block;
-      }
+    body {
+      margin: 1em;
+      font-size: 1.2em;
+      width: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #c89666;
+    }
 
-      /* Bottom of page */
-      .bottomlinks {
-        overflow: hidden;
-        background-color: #e1b382;
-        padding: 10px 10px;
-        text-align: center;
-      }
-      .bottomlinks a {
-        text-align: center;
-        display: inline-block;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        width: auto;
-        font-size: 1.2em;
-        border-right: 1px dashed white;
-        border-left: 1px dashed white;
-        border-top: 1px dashed white;
-        border-bottom: 1px dashed white;
-        padding: 10px 10px;
-        margin: 1em;
-      }
+    /* Navbar & Logo */
+    .navbar {
+      overflow: hidden;
+      background-color: #e1b382;
+      text-align: center;
+      width: auto;
+    }
 
-      .bottomlinks a:hover {
-        background-color: #12343b;
-        color: white;
-        cursor: pointer;
-      }
-      #copyright {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2em;
-        text-decoration: none;
-        color: white;
-      }
+    .navbar a {
+      text-align: center;
+      display: inline-block;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      width: auto;
+      font-size: 1.2em;
+      border-right: 1px dashed white;
+      border-left: 1px dashed white;
+      border-top: 1px dashed white;
+      border-bottom: 1px dashed white;
+      padding: 10px 10px;
+      margin: 1em;
+    }
 
-      /*--- Default CSS Above /\ --- */
-      input[type="text"] {
-        box-sizing: border-box;
-        padding: 30px 30px;
-        margin: 8px 0;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2em;
-        text-align: left;
-        color: #12343b;
-      }
-      .formcontainer {
-        background-color: #2d545e;
-        margin: 1em;
-        padding: 1em;
-        position: relative;
-        text-align: left;
-        font-size: 1.2em;
-        width: fit-content;
-      }
+    .navbar a:hover {
+      background-color: #12343b;
+      color: white;
+      cursor: pointer;
+    }
 
-      h3 {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2em;
-        text-align: left;
-        color: white;
-      }
+    #logo {
+      border: none;
+      cursor: pointer;
+      padding-bottom: 15px;
+      height: 89px;
+      width: 250px;
+      margin: 1em;
+      display: inline-block;
+    }
 
-      #submit {
-        background-color: #12343b;
-        color: white;
-        cursor: pointer;
-        padding: 10px 10px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2em;
-        margin-top: 2em;
-        margin-bottom: 4em;
-      }
-      #subject {
-        background-color: #12343b;
-        color: white;
-        cursor: pointer;
-        padding: 5px 5px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2em;
-      }
-      #selectionbubbles {
-        color: white;
-        cursor: pointer;
-        padding: 5px 5px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2em;
-      }
+    /* Bottom of page */
+    .bottomlinks {
+      overflow: hidden;
+      background-color: #e1b382;
+      padding: 10px 10px;
+      text-align: center;
+    }
 
-      .row {
-        box-sizing: border-box;
-        display: flex;
-      }
+    .bottomlinks a {
+      text-align: center;
+      display: inline-block;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      width: auto;
+      font-size: 1.2em;
+      border-right: 1px dashed white;
+      border-left: 1px dashed white;
+      border-top: 1px dashed white;
+      border-bottom: 1px dashed white;
+      padding: 10px 10px;
+      margin: 1em;
+    }
 
-      /* Create two equal columns that sits next to each other */
-      .column {
-        flex: 50%;
-        padding: 10px;
-      }
-      #image {
-        margin: 1em;
-        display: flex;
-        justify-content: center;
-      }
+    .bottomlinks a:hover {
+      background-color: #12343b;
+      color: white;
+      cursor: pointer;
+    }
 
-      img {
-        height: 450px;
-        width: 1350px;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="navbar">
-      <a href="index.html">
-        <div style="text-align: center">
-          <img id="logo" src="images/pzlogo1.png" alt="PZ Logo" />
-        </div>
-      </a>
-      <div class="navbar">
-        <a href="index.html">&nbsp Home &nbsp</a>
-        <a href="allaboutme.html">&nbsp All About Me &nbsp</a>
-        <a href="valueprop.html">&nbsp Value Proposition &nbsp</a>
-        <a href="services.html">&nbsp Services &nbsp</a>
-        <a href="book.html">&nbsp Book &nbsp</a>
-        <a href="faqs.html">&nbsp FAQs &nbsp</a>
+    #copyright {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2em;
+      text-decoration: none;
+      color: white;
+    }
+
+    /*--- Default CSS Above /\ --- */
+    input[type="text"] {
+      box-sizing: border-box;
+      padding: 30px 30px;
+      margin: 8px 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2em;
+      text-align: left;
+      color: #12343b;
+    }
+
+    .formcontainer {
+      background-color: #2d545e;
+      margin: 1em;
+      padding: 1em;
+      position: relative;
+      text-align: left;
+      font-size: 1.2em;
+      width: fit-content;
+    }
+
+    h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2em;
+      text-align: left;
+      color: white;
+    }
+
+    #submit {
+      background-color: #12343b;
+      color: white;
+      cursor: pointer;
+      padding: 10px 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2em;
+      margin-top: 2em;
+      margin-bottom: 4em;
+    }
+
+    #subject {
+      background-color: #12343b;
+      color: white;
+      cursor: pointer;
+      padding: 5px 5px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2em;
+    }
+
+    #selectionbubbles {
+      color: white;
+      cursor: pointer;
+      padding: 5px 5px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2em;
+    }
+
+    .row {
+      box-sizing: border-box;
+      display: flex;
+    }
+
+    /* Create two equal columns that sits next to each other */
+    .column {
+      flex: 50%;
+      padding: 10px;
+    }
+
+    #image {
+      margin: 1em;
+      display: flex;
+      justify-content: center;
+    }
+
+    img {
+      height: 450px;
+      width: 1350px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="navbar">
+    <a href="index.html">
+      <div style="text-align: center">
+        <img id="logo" src="Images/pzlogo1.png" alt="PZ Logo" />
       </div>
-    </div>
-    <hr />
-    <div id="image">
-      <img
-        src="images/feedbackandquestions.png"
-        alt="feedback and questions"
-        title="feedback and questions"
-      />
-    </div>
-
-    <!-- Grid used below \/ -->
-    <div class="row">
-      <div class="columnone" style="background-color: #c89666">
-        <h1>Questions or Comments? Connect With Me</h1>
-        <!-- Form used Below \/ -->
-        <div class="formcontainer">
-          <div>
-            <h3>First Name:</h3>
-            <input type="text" placeholder="Enter your first name." size="30" />
-          </div>
-          <div>
-            <h3>Last Name:</h3>
-            <input type="text" placeholder="Enter your last name." size="30" />
-          </div>
-          <div>
-            <h3>Email:</h3>
-            <input
-              type="text"
-              placeholder="Enter your e-mail address."
-              size="30"
-            />
-          </div>
-
-          <div>
-            <h3>Are you an existing client?</h3>
-            <div id="selectionbubbles">
-              <label
-                ><input
-                  type="radio"
-                  name="existingclient"
-                  value="yes"
-                />Yes</label
-              >
-              <label
-                ><input type="radio" name="notaclient" value="no" />No</label
-              >
-            </div>
-          </div>
-
-          <div>
-            <h3>Subject:</h3>
-            <div>
-              <select name="subject" id="subject">
-                <option value="selecthere">Select Here</option>
-                <option value="question">Question</option>
-                <option value="quote">Get a quote</option>
-                <option value="feedback">Feedback</option>
-                <option value="other">Other</option>
-              </select>
-            </div>
-          </div>
-
-          <div>
-            <h3>Enter Your Comment Below:</h3>
-            <div>
-              <textarea
-                id="comments"
-                name="comments"
-                rows="5"
-                cols="60"
-                placeholder="Enter your comment here."
-              ></textarea>
-            </div>
-          </div>
-          <button id="submit">Submit</button>
-        </div>
-      </div>
-      <div class="column" style="background-color: #e1b382">
-        <div class="columntwo">
-          <h1>FAQs</h1>
-          <p>Q1: __? &nbsp &nbsp &nbsp A: ___.</p>
-          <p>Q2: __? &nbsp &nbsp &nbsp A: ___.</p>
-        </div>
-      </div>
-    </div>
-    <hr />
-    <div class="bottomlinks">
+    </a>
+    <div class="navbar">
       <a href="index.html">&nbsp Home &nbsp</a>
-      <a href="sitemap.html">&nbsp Sitemap &nbsp</a>
-      <a href="faqs.html">&nbsp Connect With Me &nbsp</a>
+      <a href="allaboutme.html">&nbsp All About Me &nbsp</a>
+      <a href="valueprop.html">&nbsp Value Proposition &nbsp</a>
+      <a href="services.html">&nbsp Services &nbsp</a>
+      <a href="book.html">&nbsp Book &nbsp</a>
+      <a href="faqs.html">&nbsp FAQs &nbsp</a>
     </div>
+  </div>
+  <hr />
+  <div id="image">
+    <img src="Images/feedbackandquestions.png" alt="feedback and questions" title="feedback and questions" />
+  </div>
 
-    <p id="copyright">Patrick Zender 2023 ©</p>
-  </body>
+  <!-- Grid used below \/ -->
+  <div class="row">
+    <div class="columnone" style="background-color: #c89666">
+      <h1>Questions or Comments? Connect With Me</h1>
+      <!-- Form used Below \/ -->
+      <div class="formcontainer">
+        <div>
+          <h3>First Name:</h3>
+          <input type="text" placeholder="Enter your first name." size="30" />
+        </div>
+        <div>
+          <h3>Last Name:</h3>
+          <input type="text" placeholder="Enter your last name." size="30" />
+        </div>
+        <div>
+          <h3>Email:</h3>
+          <input type="text" placeholder="Enter your e-mail address." size="30" />
+        </div>
+
+        <div>
+          <h3>Are you an existing client?</h3>
+          <div id="selectionbubbles">
+            <label><input type="radio" name="existingclient" value="yes" />Yes</label>
+            <label><input type="radio" name="notaclient" value="no" />No</label>
+          </div>
+        </div>
+
+        <div>
+          <h3>Subject:</h3>
+          <div>
+            <select name="subject" id="subject">
+              <option value="selecthere">Select Here</option>
+              <option value="question">Question</option>
+              <option value="quote">Get a quote</option>
+              <option value="feedback">Feedback</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <h3>Enter Your Comment Below:</h3>
+          <div>
+            <textarea id="comments" name="comments" rows="5" cols="60"
+              placeholder="Enter your comment here."></textarea>
+          </div>
+        </div>
+        <button id="submit">Submit</button>
+      </div>
+    </div>
+    <div class="column" style="background-color: #e1b382">
+      <div class="columntwo">
+        <h1>FAQs</h1>
+        <p>Q1: __? &nbsp &nbsp &nbsp A: ___.</p>
+        <p>Q2: __? &nbsp &nbsp &nbsp A: ___.</p>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <div class="bottomlinks">
+    <a href="index.html">&nbsp Home &nbsp</a>
+    <a href="sitemap.html">&nbsp Sitemap &nbsp</a>
+    <a href="faqs.html">&nbsp Connect With Me &nbsp</a>
+  </div>
+
+  <p id="copyright">Patrick Zender 2023 ©</p>
+</body>
+
 </html>
