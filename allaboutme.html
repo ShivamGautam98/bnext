@@ -1,189 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" conent="Patrick Zender" />
-    <meta
-      name="All About Me"
-      content="The PZ consulting website is a personal site for Patrick Zender and his consulting services.."
-    />
-    <title>All About Me - PZ Consulting</title>
-    <style>
-      /* General Page Formatting */
-      p {
-        text-indent: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2em;
-        text-indent: 3%;
-        text-align: left;
-        width: auto;
-        color: #12343b;
-      }
-      h1 {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 3em;
-        text-align: center;
-        width: auto;
-        color: #12343b;
-      }
 
-      a:link {
-        color: #2d545e;
-        text-decoration: none;
-        cursor: pointer;
-      }
-      a:visited {
-        color: #2d545e;
-        text-decoration: none;
-        cursor: pointer;
-      }
+<head>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" conent="Bhuwenesh Gautam" />
+  <meta name="All About Me" content="bNext is a personal site for Bhuwenesh Gautam and his consulting services.." />
+  <title>All About Me - bNext Consulting</title>
+  <style>
+    /* General Page Formatting */
+    p {
+      text-indent: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2em;
+      text-indent: 3%;
+      text-align: left;
+      width: auto;
+      color: #12343b;
+    }
 
-      body {
-        margin: 1em;
-        font-size: 1.2em;
-        width: 100%;
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: #c89666;
-      }
+    h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 3em;
+      text-align: center;
+      width: auto;
+      color: #12343b;
+    }
 
-      /* Navbar & Logo */
-      .navbar {
-        overflow: hidden;
-        background-color: #e1b382;
-        text-align: center;
-        width: auto;
-      }
+    a:link {
+      color: #2d545e;
+      text-decoration: none;
+      cursor: pointer;
+    }
 
-      .navbar a {
-        text-align: center;
-        display: inline-block;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        width: auto;
-        font-size: 1.2em;
-        border-right: 1px dashed white;
-        border-left: 1px dashed white;
-        border-top: 1px dashed white;
-        border-bottom: 1px dashed white;
-        padding: 10px 10px;
-        margin: 1em;
-      }
+    a:visited {
+      color: #2d545e;
+      text-decoration: none;
+      cursor: pointer;
+    }
 
-      .navbar a:hover {
-        background-color: #12343b;
-        color: white;
-        cursor: pointer;
-      }
-      #logo {
-        border: none;
-        cursor: pointer;
-        padding-bottom: 15px;
-        height: 89px;
-        width: 250px;
-        margin: 1em;
-        display: inline-block;
-      }
+    body {
+      margin: 1em;
+      font-size: 1.2em;
+      width: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #c89666;
+    }
 
-      /* Bottom of page */
-      .bottomlinks {
-        overflow: hidden;
-        background-color: #e1b382;
-        padding: 10px 10px;
-        text-align: center;
-      }
-      .bottomlinks a {
-        text-align: center;
-        display: inline-block;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        width: auto;
-        font-size: 1.2em;
-        border-right: 1px dashed white;
-        border-left: 1px dashed white;
-        border-top: 1px dashed white;
-        border-bottom: 1px dashed white;
-        padding: 10px 10px;
-        margin: 1em;
-      }
+    /* Navbar & Logo */
+    .navbar {
+      overflow: hidden;
+      background-color: #e1b382;
+      text-align: center;
+      width: auto;
+    }
 
-      .bottomlinks a:hover {
-        background-color: #12343b;
-        color: white;
-        cursor: pointer;
-      }
-      #copyright {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2em;
-        text-decoration: none;
-        color: white;
-      }
+    .navbar a {
+      text-align: center;
+      display: inline-block;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      width: auto;
+      font-size: 1.2em;
+      border-right: 1px dashed white;
+      border-left: 1px dashed white;
+      border-top: 1px dashed white;
+      border-bottom: 1px dashed white;
+      padding: 10px 10px;
+      margin: 1em;
+    }
 
-      /*--- Default CSS Above /\ --- */
-      #image {
-        margin: 1em;
-        display: flex;
-        justify-content: center;
-      }
+    .navbar a:hover {
+      background-color: #12343b;
+      color: white;
+      cursor: pointer;
+    }
 
-      img {
-        height: 450px;
-        width: 450px;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="navbar">
-      <a href="index.html">
-        <div style="text-align: center">
-          <img id="logo" src="images/pzlogo1.png" alt="PZ Logo" />
-        </div>
-      </a>
-      <div class="navbar">
-        <a href="index.html">&nbsp Home &nbsp</a>
-        <a href="allaboutme.html">&nbsp All About Me &nbsp</a>
-        <a href="valueprop.html">&nbsp Value Proposition &nbsp</a>
-        <a href="services.html">&nbsp Services &nbsp</a>
-        <a href="book.html">&nbsp Book &nbsp</a>
-        <a href="faqs.html">&nbsp FAQs &nbsp</a>
+    #logo {
+      border: none;
+      cursor: pointer;
+      padding-bottom: 15px;
+      height: 89px;
+      width: 250px;
+      margin: 1em;
+      display: inline-block;
+    }
+
+    /* Bottom of page */
+    .bottomlinks {
+      overflow: hidden;
+      background-color: #e1b382;
+      padding: 10px 10px;
+      text-align: center;
+    }
+
+    .bottomlinks a {
+      text-align: center;
+      display: inline-block;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      width: auto;
+      font-size: 1.2em;
+      border-right: 1px dashed white;
+      border-left: 1px dashed white;
+      border-top: 1px dashed white;
+      border-bottom: 1px dashed white;
+      padding: 10px 10px;
+      margin: 1em;
+    }
+
+    .bottomlinks a:hover {
+      background-color: #12343b;
+      color: white;
+      cursor: pointer;
+    }
+
+    #copyright {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2em;
+      text-decoration: none;
+      color: white;
+    }
+
+    /*--- Default CSS Above /\ --- */
+    #image {
+      margin: 1em;
+      display: flex;
+      justify-content: center;
+    }
+
+    img {
+      height: 450px;
+      width: 450px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="navbar">
+    <a href="index.html">
+      <div style="text-align: center">
+        <img id="logo" src="images/pzlogo1.png" alt="PZ Logo" />
       </div>
-    </div>
-    <h1>About Me</h1>
-    <div id="image">
-      <img
-        src="images/patrickzender.jpg"
-        alt="Patrick Zender"
-        title="Patrick Zender"
-      />
-    </div>
-    <p>
-      I have years of experience as a consultant and can help businesses with
-      things like strategy, management, finance, human resources, and
-      technology. I understand how complex the business world can be, but I can
-      help clients navigate it with ease.
-    </p>
-    <p>
-      What sets me apart as a great consultant is my ability to work closely
-      with clients to understand their needs and goals. I take a collaborative
-      approach and develop customized solutions that are tailored to their
-      specific needs. I have strong analytical skills and can quickly identify
-      opportunities for improvement. I also have excellent communication skills
-      and can explain complex concepts in a way that is easy to understand. My
-      passion for delivering high-quality work and commitment to results make me
-      a consultant clients can rely on.
-    </p>
-
-    <div class="bottomlinks">
+    </a>
+    <div class="navbar">
       <a href="index.html">&nbsp Home &nbsp</a>
-      <a href="sitemap.html">&nbsp Sitemap &nbsp</a>
-      <a href="faqs.html">&nbsp Connect With Me &nbsp</a>
+      <a href="allaboutme.html">&nbsp All About Me &nbsp</a>
+      <a href="valueprop.html">&nbsp Value Proposition &nbsp</a>
+      <a href="services.html">&nbsp Services &nbsp</a>
+      <a href="book.html">&nbsp Book &nbsp</a>
+      <a href="faqs.html">&nbsp FAQs &nbsp</a>
     </div>
+  </div>
+  <h1>About Me</h1>
+  <div id="image">
+    <img src="images/photo_bk.jpg" alt="Patrick Zender" title="Patrick Zender" />
+  </div>
+  <p>
+    I have years of experience as a consultant and can help businesses with
+    things like strategy, management, finance, human resources, and
+    technology. I understand how complex the business world can be, but I can
+    help clients navigate it with ease.
+  </p>
+  <p>
+    What sets me apart as a great consultant is my ability to work closely
+    with clients to understand their needs and goals. I take a collaborative
+    approach and develop customized solutions that are tailored to their
+    specific needs. I have strong analytical skills and can quickly identify
+    opportunities for improvement. I also have excellent communication skills
+    and can explain complex concepts in a way that is easy to understand. My
+    passion for delivering high-quality work and commitment to results make me
+    a consultant clients can rely on.
+  </p>
 
-    <p id="copyright">Patrick Zender 2023 ©</p>
-  </body>
+  <div class="bottomlinks">
+    <a href="index.html">&nbsp Home &nbsp</a>
+    <a href="sitemap.html">&nbsp Sitemap &nbsp</a>
+    <a href="faqs.html">&nbsp Connect With Me &nbsp</a>
+  </div>
+
+  <p id="copyright">Patrick Zender 2023 ©</p>
+</body>
+
 </html>
